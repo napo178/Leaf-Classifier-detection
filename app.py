@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-st.title("Image Classifier_APP")
+st.title("Assembly AI HACKATON")
 
 
 
