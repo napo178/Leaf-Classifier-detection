@@ -1,4 +1,4 @@
-# Image-Classification-Streamlit-TensorFlow 
+#Leaf Classifier detection
 A basic web-app for image classification using Streamlit and TensorFlow.
 
 
