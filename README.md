@@ -28,6 +28,6 @@ Once uploaded, the model will perform inference and the output will be displayed
 
 ## References
 
-* https://www.tensorflow.org/tutorials/images/classification
+* https://www.tensorflow.org/tutori`1ls/images/classification
 * https://docs.streamlit.io/en/stable/
 
