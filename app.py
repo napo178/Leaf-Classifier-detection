@@ -57,7 +57,7 @@ else:
 
 	result = class_names[np.argmax(pred)]
 
-	output = 'The image is a ' + result
+	output = 'The model predicts that the image that that you upload is ' + result
 
 	slot.text('Done')
 
