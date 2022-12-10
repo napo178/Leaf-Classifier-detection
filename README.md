@@ -1,5 +1,6 @@
-Leaf Classifier detection
-A basic web-app for image classification using Streamlit and TensorFlow.
+# Leaf Classifier detection
+
+> A basic web-app for image classification using Streamlit and TensorFlow.
 
 Problem Statement Farmers every year face economic loss and crop waste due to various diseases in potato plants. Early blight and Late blight are major disease of potato leaf. It is estimated that the major loss occurred in potato yield is due to these diseases.
 
