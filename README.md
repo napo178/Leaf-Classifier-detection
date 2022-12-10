@@ -1,4 +1,4 @@
-#Leaf Classifier detection
+# Leaf Classifier detection
 A basic web-app for image classification using Streamlit and TensorFlow.
 
 
