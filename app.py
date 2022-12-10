@@ -5,7 +5,9 @@ from PIL import Image
 
 st.title("Assembly AI HACKATON")
 
-
+from PIL import Image
+image = Image.open('descarga.png')
+st.image(image, caption='Assembly AI')
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
