@@ -1,10 +1,7 @@
-# Leaf Classifier detection
+Leaf Classifier detection
 A basic web-app for image classification using Streamlit and TensorFlow.
 
-
-Problem Statement
-Farmers every year face economic loss and crop waste due to various diseases in potato plants. Early blight and Late blight are major disease of potato leaf. It is estimated that the major loss occurred in potato yield is due to these diseases. 
-
+Problem Statement Farmers every year face economic loss and crop waste due to various diseases in potato plants. Early blight and Late blight are major disease of potato leaf. It is estimated that the major loss occurred in potato yield is due to these diseases.
 
 Thus the images are classified into 3 classes :
 
@@ -15,19 +12,25 @@ Thus the images are classified into 3 classes :
 3.'Potato___healthy
 
 
-To run the app locally, use the following command :-  
-streamlit run app.py`  
+## Installation
 
-The webpage should open in the browser automatically.  
-If it doesn't, the local URL would be output in the terminal, just copy it and open it in the browser manually.  
-By default, it would be `http://localhost:8501/`  
+ ```bash
+pip install -r requirements.txt
+```
 
-Click on `Browse files` and choose an image from your computer to upload.  
-Once uploaded, the model will perform inference and the output will be displayed.  
+## Run app
 
+ ```bash
+python app.py
+```
 
-## References
+The webpage should open in the browser automatically.
+If it doesn't, the local URL would be output in the terminal, just copy it and open it in the browser manually.
+By default, it would be http://localhost:8501/
 
-* https://www.tensorflow.org/tutori`1ls/images/classification
-* https://docs.streamlit.io/en/stable/
+Click on Browse files and choose an image from your computer to upload.
+Once uploaded, the model will perform inference and the output will be displayed.
 
+References
+https://www.tensorflow.org/tutorials/images/classification
+https://docs.streamlit.io/en/stable/
