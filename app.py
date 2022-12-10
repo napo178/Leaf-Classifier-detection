@@ -9,8 +9,14 @@ from PIL import Image
 image = Image.open('descarga.png')
 st.image(image, caption='Assembly AI')
 
-st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.text('Farmers every year face economic loss and crop waste due to various diseases in potato plants. Early blight and Late blight are major disease of potato leaf. It is estimated that the major loss occurred in potato yield is due to these diseases. Thus the images are classified into 3 classes :')
+
+
+
+
+
+st.set_option('deprecation.showfileUploaderEncoding', False)
 @st.cache(allow_output_mutation=True)
 def load_model():
 	model = tf.keras.models.load_model('./my_model.h5')
@@ -30,6 +36,8 @@ def predict_class(image, model):
 
 
 model = load_model()
+
+
 st.title('Leaf Classifier detection')
 
 file = st.file_uploader("Upload an image ", type=["jpg", "png"])
@@ -58,3 +66,4 @@ else:
 
 	st.success(output)
 
+st.balloons()
