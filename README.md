@@ -9,8 +9,10 @@ Farmers every year face economic loss and crop waste due to various diseases in 
 Thus the images are classified into 3 classes :
 
 1.Potato___Early_blight
-2.'Potato___Late_blight'
-3.'Potato___healthy'
+
+2.'Potato___Late_blight
+
+3.'Potato___healthy
 
 
 To run the app locally, use the following command :-  
