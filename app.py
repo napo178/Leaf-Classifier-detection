@@ -2,6 +2,9 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+import request
+import url
+
 
 st.title("Assembly AI HACKATON")
 
@@ -10,8 +13,12 @@ image = Image.open('descarga.png')
 st.image(image, caption='Assembly AI')
 
 
+def main():
+    st.image(image, caption='Assembly AI')
 
-
+if __name__ == '__main__':
+    main()
+    
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 @st.cache(allow_output_mutation=True)
@@ -35,7 +42,7 @@ def predict_class(image, model):
 model = load_model()
 
 
-st.title('Leaf Classifier detection')
+st.title('Leaf Classifier detection using Convulutional Neural Networks')
 
 file = st.file_uploader("Upload an image ", type=["jpg", "png"])
 
@@ -63,6 +70,8 @@ else:
 
 	st.success(output)
 
-st.balloons()
+
 
 st.info('The model is a CNN doing a classification task ', icon="ℹ️")
+st.success('The model is running in a inference successfully !', icon="✅")
+st.info('This is a purely informational message', icon="ℹ️")
