@@ -74,4 +74,3 @@ else:
 
 st.info('The model is a CNN doing a classification task ', icon="ℹ️")
 st.success('The model is running in a inference successfully !', icon="✅")
-st.info('This is a purely informational message', icon="ℹ️")
